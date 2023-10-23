@@ -66,6 +66,11 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
@@ -272,7 +277,7 @@ header::after {
 .deadline-format {
   background: var(--clr-primary-3);
   color: var(--clr-white);
-  margin-right: 1rem;
+  margin-right: 0.8rem;
   width: 5rem;
   height: 5rem;
   border-radius: 12%;
