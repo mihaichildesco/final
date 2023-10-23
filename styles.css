@@ -262,6 +262,31 @@ header::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
   z-index: -1;
+}
+
+.deadline {
+  display: flex;
+}
+.deadline-format {
+  background: var(--clr-grey-1);
+  color: var(--clr-white);
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.deadline-format span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+.deadline h4:not(.expired) {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: var(--spacing);
 }
