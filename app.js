@@ -49,7 +49,7 @@ const weekdays= [
 const deadline = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
 
-let futureDate = new Date(2024, 1, 1, 0, 0, 0);
+let futureDate = new Date(2024, 0, 1, 0, 0, 0);
 
 let month = futureDate.getMonth();
 month = months[month];
